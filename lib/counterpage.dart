@@ -2,7 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'controller/counter_controller.dart';
+import 'module/controller/counter_controller.dart';
+
 
 class CounterPage extends StatelessWidget {
   const CounterPage({Key? key}) : super(key: key);
