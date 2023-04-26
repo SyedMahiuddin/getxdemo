@@ -34,7 +34,7 @@ class Home extends StatelessWidget {
               ),
             ),
           ),
-          ElevatedButton(onPressed: (){fetchData();
+          ElevatedButton(onPressed: (){//fetchData();
          Get.toNamed(RouteClass.gettestRoute());
           }, child:const Text('Post Data'))
         ],
